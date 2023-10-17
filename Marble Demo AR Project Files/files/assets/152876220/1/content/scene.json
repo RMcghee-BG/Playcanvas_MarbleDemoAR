@@ -1,0 +1,59 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Cube.001",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 80,
+					"triangles": 30,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Material"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Gem",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Material"
+						]
+					}
+				}
+			}
+		}
+	}
+}
